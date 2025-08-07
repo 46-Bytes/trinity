@@ -1,0 +1,393 @@
+{
+  "industry_type": "Manufacturing and associated industries",
+  "primary_contact_person_name": "Stacey Meghins",
+  "primary_contact_person_email": "stacey@manuco.com.au",
+  "primary_contact_person_mobile_phone": "0456895487",
+  "primary_contact_person_role_or_title": "Owner",
+  "business_details": [
+    {
+      "companyName": "SMH Pty Ltd",
+      "tradingName": "Manuco",
+      "abn": "HMY Pty Ltd"
+    },
+    {
+      "companyName": "HMY Pty Ltd",
+      "tradingName": "HMY Pty Ltd",
+      "abn": "45"
+    }
+  ],
+  "headquarter_business_address": "Unit 13, 23 square street, The Gap, QLD 4061",
+  "other_office_addresses": [
+    {
+      "addresses": "8 Gregsue Ct, The Gap, 4061"
+    },
+    {
+      "addresses": "11 Mary Street, Sydney, NSW 2000"
+    },
+    {
+      "addresses": "6 Stan Street, Adelaide, SA 1000"
+    },
+    {
+      "addresses": "1 Troy Street, Perth, WA 6000"
+    }
+  ],
+  "business_email": "admin@manuco.com.au",
+  "business_phone": "1300236456",
+  "business_websites": "www.manuco.com.au",
+  "accountant_company_name": "Forsyths",
+  "accountant_contact_person": "Bob Hope",
+  "accountant_address": "3 Fosyths Street, Roma, QLD",
+  "accountant_phone": "1200500500",
+  "accountant_email": "bob@accountant.com",
+  "reason_for_sale": "Time to exit",
+  "business_description": "We manufacture roofing products",
+  "business_founded_by_you": "No",
+  "business_acquisition_method": "Purchased",
+  "years_owning_business": 8,
+  "business_age": 23,
+  "last_year_turnover": "$5,000,001 - $10,000,000",
+  "business_structure": "We are a trading company, owned by another entity",
+  "other_shareholders_count": "5",
+  "directors_total_count": "3",
+  "operational_licenses_needed": "Yes",
+  "business_licenses": [
+    {
+      "type": "Manuf Licence",
+      "expiry": "12/06/2025",
+      "cost": "$8000"
+    },
+    {
+      "type": "Roofers licence",
+      "expiry": "12/09/2026",
+      "cost": "$700"
+    },
+    {
+      "type": "Safety certificate",
+      "expiry": "01/05/2025",
+      "cost": "$5263"
+    }
+  ],
+  "license_compliance_status": "No",
+  "currently_facing_legal_actions": "No",
+  "regulatory_compliance": "Yes",
+  "business_regulations_compliance_details": "We have the building industry code to bear in mind",
+  "business_location_count": "1-10",
+  "does_the_business_own_any_properties": "Yes",
+  "leases_properties": "1",
+  "business_property_1": {
+    "business_property_address": "8 Gregsue Ct, The Gap 4061",
+    "land_area": "5042sqm",
+    "premise_type": "Manufacturing facility",
+    "lease_terms": "5 years",
+    "options": "2",
+    "current_term_expiry_date": "12/12/2025",
+    "rent": "2050",
+    "rent_include_outgoings": "2650",
+    "rent_review_method": "As needed",
+    "next_review_date": "10/11/2025",
+    "council_rates_per_quarter": "562",
+    "water_rates_per_quarter": "445",
+    "body_corporate_per_quarter": "887",
+    "property_ownership_entity_name": "GUIbiu Pty Ltd",
+    "real_property_description": "XYZ",
+    "strata_or_torrens_title": "FY30265",
+    "annual_rates": "2015",
+    "annual_corporate_fees": "12356",
+    "zoning": "LZ124",
+    "construction_type": "Brick veneer",
+    "estimated_age_of_building": "12 years",
+    "number_of_parking_spaces": "23",
+    "proposed_annual_rental": "52000",
+    "total_annual_outgoings": "5624"
+  },
+  "property_upgrades_needed": "No",
+  "financial_performance_since_acquisition": "Worse",
+  "turnaround_possibility": "Yes",
+  "do_you_have_any_debts_in_the_business": "Yes",
+  "list_business_debts": [
+    {
+      "debt": "Car loan 1",
+      "remainingAmount": "23500",
+      "remainingTerm": "4 years"
+    },
+    {
+      "debt": "Car loan 2",
+      "remainingAmount": "12500",
+      "remainingTerm": "3 years"
+    }
+  ],
+  "debt_repayment_consistency": "Yes",
+  "are_your_activity_statements_up_to_date": "Yes",
+  "are_your_business_tax_returns_up_to_date": "Yes",
+  "do_you_have_a_bookkeeper": "Yes",
+  "bookkeeper_internal_or_external": "External",
+  "accountant_meeting_freq": "once per year",
+  "key_reports_review_frequency": "Quarterly",
+  "which_reports_do_you_review": [
+    "P&L",
+    "Balance Sheet",
+    "Bank Statements",
+    "Sales and Marketing Data Report"
+  ],
+  "profit_or_loss_last_year": "Loss",
+  "net_loss_amount_if_loss": "$50,001 - $100,000",
+  "profitability_concerns": "Yes - major changes within the industry and economic issues have impacted us heavily",
+  "reliance_on_financing_for_cash_flow": "Yes",
+  "financing_options_used_for_cash_flow": [
+    "Credit Cards",
+    "Overdraft",
+    "I put money into the business"
+  ],
+  "top_3_business_expenses": [
+    "Contractors",
+    "Casual Staff",
+    "Permanent staff"
+  ],
+  "stock_current_estimate": "500000",
+  "lowest_manageable_stock_level": "125000",
+  "minimum_stock_value_to_sell": "268000",
+  "unfinished_work_over_three_days": "Yes",
+  "wip_value_if_sold_tomorrow": "856900",
+  "forward_orders_list": [
+    {
+      "forwardOrders": "Order 1",
+      "daysRequired": "23",
+      "dollarValue": "12500"
+    },
+    {
+      "forwardOrders": "Order 2",
+      "daysRequired": "59",
+      "dollarValue": "16000"
+    }
+  ],
+  "wc_debtors_capital_required": "1234",
+  "wc_creditors_capital_required": "25000",
+  "wc_stock_capital_required": "36000",
+  "wc_inventory_capital_required": "78000",
+  "wc_wip_capital_required": "1500",
+  "wc_bonds_capital_required": "1200",
+  "wc_other_item": "Nothing else",
+  "encumbrances_list": [
+    {
+      "item": "Equipment 1",
+      "type": "chattel",
+      "financier": "MBA",
+      "monthly": "2356",
+      "finalDue": "12/05/2027"
+    },
+    {
+      "item": "Equipment 2",
+      "type": "standard loan",
+      "financier": "Macquarie",
+      "monthly": "500",
+      "finalDue": "13/04/2028"
+    }
+  ],
+  "docs_last_3_years_fin_statements_by_ca": "Item 1",
+  "docs_mgt_accts_last_fin_statements_by_ca": "Item 1",
+  "trading_days": [
+    {
+      "mon": "9-5",
+      "tues": "10-3",
+      "wed": "9-5"
+    }
+  ],
+  "public_holiday_trading": "Ad hoc - we usually assess based on demand",
+  "additional_business_operations_info": "Nothing to aff",
+  "owners_duties": [
+    {
+      "owner": "Steve",
+      "hoursWeekly": "38",
+      "dailyDuties": "General management",
+      "periodicDuties": "hands on work"
+    },
+    {
+      "owner": "Mary",
+      "hoursWeekly": "12",
+      "dailyDuties": "Oversight",
+      "periodicDuties": "general financials"
+    }
+  ],
+  "has_succession_plan_in_place": "Yes",
+  "succession_plan_proactive_implementation": "No",
+  "succession_plan_effectiveness": "No",
+  "is_ceo_and_gm_same_or_diff_people": "Same",
+  "is_ceo_another_shareholder": "Yes",
+  "can_the_business_operate_without_you": "No",
+  "how_much_is_the_business_reliant_on_you": 70,
+  "when_you_are_not_around": "Yes",
+  "business_has_board": "Yes",
+  "business_has_divisional_structure": "Yes",
+  "how_many_divisions_do_you_have": 2,
+  "run_divisional_mgmt_meetings": "Yes in every division",
+  "runs_divisional_team_meetings": "Yes for some divisions",
+  "senior_mgmt_strategy_review_frequency": "Ad Hoc at random times",
+  "sr_mgmt_strategy_review_tools": [
+    "Action/tasking sheet",
+    "Meeting Minutes",
+    "Agenda"
+  ],
+  "processes_documented": "Yes",
+  "business_process_review_date": "I don't recall",
+  "processes_and_systems_effectiveness_rating": 3,
+  "business_automation_tools": "Yes",
+  "operational_reports_review": "No",
+  "do_you_sell_online_via_your_own_ecommerce_store": "No",
+  "sell_on_marketplaces": "No",
+  "business_tech_stack": "Gmail, Xero, Infusionsoft",
+  "process_reengineering_done": "No",
+  "tech_sync_efficiency": "Yes",
+  "tech_support_access": "Yes",
+  "tech_rating_vs_competitors": 3,
+  "fte_count": 12,
+  "pte_count": 5,
+  "casual_emp_count": 3,
+  "contractor_count": 2,
+  "staff_details": [
+    {
+      "staff": "John",
+      "type": "full time",
+      "title": "manufacturer",
+      "jobDescription": "works on production of panels",
+      "hoursWeekly": "38",
+      "grossWeekly": "1780",
+      "keyEmployee": "no",
+      "payrollTax": "yes"
+    },
+    {
+      "staff": "Bob",
+      "type": "full time",
+      "title": "supervisor",
+      "jobDescription": "supervises the manufacturing team",
+      "hoursWeekly": "38",
+      "grossWeekly": "2803",
+      "keyEmployee": "yes",
+      "payrollTax": "no"
+    }
+  ],
+  "workplace_agreements": false,
+  "qualified_staff_availability": "Its hard to find the right people",
+  "outsources_work": "Yes",
+  "percent_work_complete_3rd_parties": 15,
+  "has_3rd_party_service_level_agreements": "No",
+  "team_position_descriptions": "Some team members",
+  "last_time_team_position_descriptions_reviewed": "I don't recall",
+  "has_hr_policies_and_procs": "Yes",
+  "performance_review_freq": "never",
+  "busy_rating": 70,
+  "low_staff_busy_percentage_reason": "We don't have enough work",
+  "underperforming_staff_identification": "Yes",
+  "staff_recruitment_need": "No",
+  "staff_retention_threat_six_months": "Yes",
+  "staffing_and_hr_challenges": "Yes",
+  "team_cohesion_satisfaction": "No",
+  "hr_metrics_tracking": "Yes",
+  "measured_hr_data_types": [
+    "Sick leave",
+    "Maternity leave",
+    "Annual leave",
+    "Absenteeism",
+    "Paternity leave",
+    "Other"
+  ],
+  "percentage_chance_of_losing_key_customers": 70,
+  "has_crm": "Yes",
+  "crm_system_effectiveness": 2,
+  "customer_data_utilization": "No",
+  "percentage_of_revenue_from_largest_customer": 35,
+  "percentage_of_revenue_from_top_3_customers": 52,
+  "major_customers_count": "8",
+  "major_customers_total_annual_sales": "4500000",
+  "repeat_customer_sales_percentage": "80",
+  "new_customer_sales_percentage": "20",
+  "new_customer_monthly_sales_value": "1500000",
+  "sales_seasonal": "Yes",
+  "best_sales_months": "June-Nov",
+  "twelve_month_sales_change_reason": "Decline - tough market",
+  "active_customers_count": 123,
+  "have_customers_on_service_or_supply_contracts": "Yes",
+  "percentage_of_customers_on_service_contracts": 10,
+  "has_dedicated_customer_service_person_or_team": "Yes",
+  "customer_service_team_training": "No",
+  "has_customer_service_procedures_in_place": "Yes",
+  "sells_physical_products": "Yes",
+  "manufactures_in_house": "Yes",
+  "custom_manufactured_by_another": "Yes",
+  "consider_in_house_manufacturing": "No",
+  "current_suppliers_appropriateness": "Some",
+  "supplier_contracts_in_place": "Some",
+  "exclusivity_agreements": "No",
+  "imports_products": "Yes",
+  "exports_products": "No",
+  "sell_deliver_provide_services_any_type": "Yes",
+  "types_of_services": [
+    "Intellectual service (example: accounting)"
+  ],
+  "physical_product_revenue_percentage": 10,
+  "service_type_standard_or_custom": "Custom Solutions",
+  "last_time_reviewed_products_services": "over one year ago",
+  "why_reviewed_products_services_now": "We just felt we needed to",
+  "last_time_updated_prices": "3 months ago",
+  "why_update_prices_now": "Following market research",
+  "rating_product_service_right_for_market": 10,
+  "our_prices_are_the_same_as_that_of_competitors": "Higher",
+  "our_productservice_mix_needs_to_change": "No",
+  "our_customers_understand_our_productsservices": "Yes",
+  "products_services_still_relevant_in_2_yrs": "No",
+  "different_products_services_in_2_yrs": "Some changes are expected",
+  "our_margins_are_higher_than_industry_standard": "No - our margins are lower than others",
+  "has_sales_marketing_strategy": "Yes",
+  "sales_marketing_strategy_review_date": "I don't recall",
+  "has_sales_marketing_plan": "No",
+  "do_you_have_a_clearly_articulated_sales_process": "No",
+  "segmented_customer_list": "Yes",
+  "total_marketing_budget": "$10,001 - $25,000",
+  "online_marketing_budget": "$10,001 - $25,000",
+  "know_roi_for_all_money_spent_on_marketing": "No",
+  "do_you_track_and_monitor_sales_and_marketing_data": "No",
+  "sales_marketing_satisfaction": 2,
+  "low_sales_results_reason": "We are not good at marketing",
+  "strategic_business_plan": "Yes",
+  "strategic_plan_last_review": "I don't recall",
+  "intellectual_property_excluded": [
+    {
+      "item": "patent",
+      "comments": "patent on a product"
+    },
+    []
+  ],
+  "does_your_business_have_a_style_guide": "No",
+  "does_the_business_have_a_website": "Yes",
+  "website_last_updated_date": "1 month ago",
+  "brand_consistency_rating": 10,
+  "premises_update_needed": "Yes",
+  "strongest_advantage": "We are good at manufacturing things",
+  "main_competitor_analysis": [
+    {
+      "name": "Manuf R Us",
+      "size": "same",
+      "price": "lower",
+      "strengths": "good team",
+      "weaknesses": "lower quality"
+    },
+    {
+      "name": "Clins Manuf",
+      "size": "larger",
+      "price": "same",
+      "strengths": "very capable and great quality",
+      "weaknesses": "owners are not good with their staff"
+    }
+  ],
+  "entry_barriers": "cost to startup",
+  "what_new_threats_could_impact_your_business": "Overseas entrants and economic changes",
+  "customer_alternative_options": "Other materials we don't use",
+  "supplier_threats": "Increase prices",
+  "buyer_threats": "Force price reductions",
+  "industry_challenges_2yr": "The general economy",
+  "industry_opportunities_2yr": "Technology and better materials",
+  "list_the_strengths_within_your_business": "Our machinery and expertise",
+  "list_the_weaknesses_within_your_business": "Poor team culture",
+  "list_the_opportunities_available_to_your_business": "Fix culture, improve marketing and sales",
+  "list_the_threats_within_your_business": "Internal disputes",
+  "is_there_anything_else_youd_like_to_share": "We are motivated to sell"
+}

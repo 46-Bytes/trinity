@@ -1,0 +1,79 @@
+[
+  {
+    "name": "General/Contextual",
+    "slug": "general",
+    "description": "General business context and contact information.",
+    "fa_icon": "fa-solid fa-info-circle",
+    "color": "#007bff"
+  },
+  {
+    "name": "Legal, Compliance & Property",
+    "slug": "legal-licensing",
+    "description": "Covers legal structure, licenses, and property details.",
+    "fa_icon": "fa-solid fa-gavel",
+    "color": "#dc3545"
+  },
+  {
+    "name": "Financial Clarity & Reporting",
+    "slug": "financial",
+    "description": "Insights into business financials, debts, and reports.",
+    "fa_icon": "fa-solid fa-chart-line",
+    "color": "#28a745"
+  },
+  {
+    "name": "Financial Clarity & Reporting - DOCUMENTATION",
+    "slug": "financial-docs",
+    "description": "Upload and review supporting financial documentation.",
+    "fa_icon": "fa-solid fa-file-invoice-dollar",
+    "color": "#6f42c1"
+  },
+  {
+    "name": "Owner Dependency & Operations",
+    "slug": "operations",
+    "description": "Evaluates owner involvement and operational structure.",
+    "fa_icon": "fa-solid fa-cogs",
+    "color": "#fd7e14"
+  },
+  {
+    "name": "People",
+    "slug": "human-resources",
+    "description": "Employee details, HR practices, and staffing info.",
+    "fa_icon": "fa-solid fa-users",
+    "color": "#17a2b8"
+  },
+  {
+    "name": "Customer, Product & Revenue Quality",
+    "slug": "customers",
+    "description": "Customer base, revenue sources, and product/services quality.",
+    "fa_icon": "fa-solid fa-handshake",
+    "color": "#ffc107"
+  },
+  {
+    "name": "Brand, IP & Intangibles",
+    "slug": "competitive-forces",
+    "description": "Intellectual property, brand perception, and market positioning.",
+    "fa_icon": "fa-solid fa-lightbulb",
+    "color": "#6610f2"
+  },
+  {
+    "name": "Diagnostic",
+    "slug": "diagnostic",
+    "description": "Complete diagnostic assessment covering all categories.",
+    "fa_icon": "fas fa-stethoscope",
+    "color": "#00FF00"
+  },
+  {
+    "name": "Due Diligence & Risk Assessment",
+    "slug": "due-diligence",
+    "description": "Addresses due diligence processes, risk assessments, and investigative reviews.",
+    "fa_icon": "fa-solid fa-search",
+    "color": "#20c997"
+  },
+  {
+    "name": "Tax Planning & Compliance",
+    "slug": "tax",
+    "description": "Covers tax strategies, filings, and compliance requirements.",
+    "fa_icon": "fa-solid fa-file-invoice",
+    "color": "#fd7e14"
+  }
+]

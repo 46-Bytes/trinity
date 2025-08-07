@@ -1,0 +1,7 @@
+{
+    "$schema": "./app.schema.json",
+    "name": "Trinity AI",
+    "version": "1.0.10",
+    "description": "",
+    "release_date": "2020-01-01"
+}

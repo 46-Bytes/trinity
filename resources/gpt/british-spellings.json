@@ -1,0 +1,165 @@
+{
+  "countries_using_british_spelling": [
+    "United Kingdom",
+    "Australia",
+    "Canada",
+    "New Zealand",
+    "South Africa",
+    "Ireland",
+    "India",
+    "Pakistan",
+    "Bangladesh",
+    "Nigeria",
+    "Malaysia",
+    "Singapore",
+    "Hong Kong",
+    "Kenya",
+    "Jamaica",
+    "Trinidad and Tobago",
+    "Zimbabwe",
+    "Sri Lanka",
+    "Ghana",
+    "Malta",
+    "Bahamas",
+    "Barbados",
+    "Fiji",
+    "Mauritius",
+    "Namibia",
+    "Uganda",
+    "Papua New Guinea",
+    "Zambia",
+    "Botswana",
+    "Guyana"
+  ],
+  "spelling_differences": [
+    {
+      "category": "-our vs. -or",
+      "British": [
+        "colour",
+        "flavour",
+        "honour",
+        "labour",
+        "neighbour"
+      ],
+      "American": [
+        "color",
+        "flavor",
+        "honor",
+        "labor",
+        "neighbor"
+      ]
+    },
+    {
+      "category": "-re vs. -er",
+      "British": [
+        "centre",
+        "metre",
+        "litre",
+        "theatre"
+      ],
+      "American": [
+        "center",
+        "meter",
+        "liter",
+        "theater"
+      ]
+    },
+    {
+      "category": "-ise vs. -ize",
+      "British": [
+        "organise",
+        "realise",
+        "recognise",
+        "apologise"
+      ],
+      "American": [
+        "organize",
+        "realize",
+        "recognize",
+        "apologize"
+      ]
+    },
+    {
+      "category": "-yse vs. -yze",
+      "British": [
+        "analyse",
+        "paralyse"
+      ],
+      "American": [
+        "analyze",
+        "paralyze"
+      ]
+    },
+    {
+      "category": "Double consonants before suffixes (-l vs. -ll)",
+      "British": [
+        "travelling",
+        "cancelled",
+        "labelled",
+        "fuelled"
+      ],
+      "American": [
+        "traveling",
+        "canceled",
+        "labeled",
+        "fueled"
+      ]
+    },
+    {
+      "category": "-ce vs. -se",
+      "British": [
+        "defence",
+        "offence",
+        "licence"
+      ],
+      "American": [
+        "defense",
+        "offense",
+        "license"
+      ]
+    },
+    {
+      "category": "-ogue vs. -og",
+      "British": [
+        "catalogue",
+        "dialogue",
+        "analogue"
+      ],
+      "American": [
+        "catalog",
+        "dialog",
+        "analog"
+      ]
+    },
+    {
+      "category": "-ae and -oe vs. -e",
+      "British": [
+        "aesthetic",
+        "encyclopaedia",
+        "archaeology"
+      ],
+      "American": [
+        "esthetic",
+        "encyclopedia",
+        "archeology"
+      ]
+    },
+    {
+      "category": "Miscellaneous differences",
+      "British": [
+        "moustache",
+        "cheque",
+        "plough",
+        "tyre",
+        "mould"
+      ],
+      "American": [
+        "mustache",
+        "check",
+        "plow",
+        "tire",
+        "mold"
+      ]
+    }
+  ]
+}

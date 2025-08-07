@@ -1,0 +1,38 @@
+[
+  {
+    "stripe_sandbox_product_id": "prod_RK2H9y2uAz714e",
+    "stripe_sandbox_price_id": "price_1QROCXPcm1KjIvUYj7e5nMlt",
+    "stripe_production_product_id": "prod_Rii8Nf7BfBrBll",
+    "stripe_production_price_id": "price_1QpGiAB9vNcoMQa5o6rypRIT",
+    "name": "Basic",
+    "slug": "basic",
+    "description": "Access to basic features with monthly billing. Cancel Anytime.",
+    "price": 11,
+    "currency": "AUD",
+    "is_active": true,
+    "type": "subscription",
+    "metadata": {
+      "plan": "basic",
+      "interval": "monthly"
+    },
+    "image_url": "https://example.com/images/basic_subscription.png"
+  },
+  {
+    "stripe_sandbox_product_id": "prod_RK2RaoSwSRmDGg",
+    "stripe_sandbox_price_id": "price_1QROMxPcm1KjIvUY7acvgHgw",
+    "stripe_production_product_id": "",
+    "stripe_production_price_id": "",
+    "name": "Advanced",
+    "slug": "advanced",
+    "description": "Access to all advanced features with monthly billing. Cancel Anytime.",
+    "price": 20,
+    "currency": "AUD",
+    "is_active": true,
+    "type": "subscription",
+    "metadata": {
+      "plan": "advanced",
+      "interval": "monthly"
+    },
+    "image_url": "https://example.com/images/premium_subscription.png"
+  }
+]

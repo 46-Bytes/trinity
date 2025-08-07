@@ -1,0 +1,50 @@
+{
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "title": "App Metadata Schema",
+    "type": "object",
+    "properties": {
+        "version": {
+            "type": "string",
+            "description": "Semantic version of the app"
+        },
+        "description": {
+            "type": "string",
+            "description": "Optional description of the release"
+        },
+        "release_date": {
+            "type": "string",
+            "format": "date",
+            "description": "Date of this release"
+        },
+        "build": {
+            "type": "string",
+            "description": "Build ID or GitLab CI pipeline reference"
+        },
+        "commit": {
+            "type": "string",
+            "description": "Git commit hash or tag"
+        },
+        "deployed_by": {
+            "type": "string",
+            "description": "Name or ID of the person or system who deployed"
+        },
+        "env": {
+            "type": "string",
+            "enum": [
+                "local",
+                "dev",
+                "staging",
+                "production"
+            ],
+            "description": "Deployment environment"
+        },
+        "notes": {
+            "type": "string",
+            "description": "Optional release notes"
+        }
+    },
+    "required": [
+        "version",
+        "release_date"
+    ]
+}

@@ -1,0 +1,190 @@
+@import "video.js/dist/video-js.css";
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+[x-cloak] {
+    display: none;
+}
+
+input[type="text"] {
+    background-color: transparent !important;
+    color: black; /* Text color */
+}
+
+.sv-popup__container {
+    z-index: 9999 !important;
+    background-color: #fff !important;
+    border: 1px solid #ccc !important;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1) !important;
+    padding: 0.5rem;
+    border-radius: 4px;
+}
+
+.sv-popup__container .sv-list {
+    background-color: #fff !important;
+}
+
+
+.yoba-orange {
+    color: #F27200;
+}
+
+.btn-yoba-orange {
+    background-color: #F27200;
+    color: white;
+    border-color: #F27200;
+    border-radius: 5px;
+    padding: 5px 10px;
+    font-weight: bold;
+    cursor: pointer;
+
+}
+
+.btn-yoba-orange:hover {
+    color: var(--bs-primary-inverse);
+    border-color: var(--bs-primary-active);
+    background-color: var(--bs-primary-active) !important;
+}
+
+.yoba-orange-bold {
+    color: #F27200;
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: 'Hellix';
+    src: url('../fonts/Hellix-Medium.eot'); /* IE9 compatibility */
+    src: url('../fonts/Hellix-Medium.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/Hellix-Medium.woff2') format('woff2'),
+    url('../fonts/Hellix-Medium.woff') format('woff'),
+    url('../fonts/Hellix-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Hellix';
+    src: url('../fonts/Hellix-Bold.eot');
+    src: url('../fonts/Hellix-Bold.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/Hellix-Bold.woff2') format('woff2'),
+    url('../fonts/Hellix-Bold.woff') format('woff'),
+    url('../fonts/Hellix-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Hellix';
+    src: url('../fonts/Hellix-LightItalic.eot');
+    src: url('../fonts/Hellix-LightItalic.eot?#iefix') format('embedded-opentype'),
+    url('../fonts/Hellix-LightItalic.woff2') format('woff2'),
+    url('../fonts/Hellix-LightItalic.woff') format('woff'),
+    url('../fonts/Hellix-LightItalic.ttf') format('truetype');
+    font-weight: 300;
+    font-style: italic;
+}
+
+body, a, p, h1, h2, h3, h4, h5, h6 {
+    font-family: 'Hellix', serif;
+}
+
+p, li {
+    font-size: 1.4rem;
+}
+
+/* Home CSS @vijay */
+@media (min-width: 2500px) {
+    body, html {
+        font-size: 16px !important;
+        font-weight: 400;
+    }
+}
+
+@media (min-width: 3200px) {
+    body, html {
+        font-size: 20px !important;
+        font-weight: 400;
+    }
+}
+
+@media (min-width: 5200px) {
+    body, html {
+        font-size: 24px !important;
+        font-weight: 400;
+    }
+}
+
+@media (min-width: 3536px) {
+    .container {
+        max-width: 2036px;
+    }
+}
+
+.ki-abstract-14 .path2:before, .ki-duotone {
+    opacity: 1;
+    color: #088cd8 !important;
+}
+
+#kt_landing_menu_toggle {
+    border: 1px solid #088cd8;
+    padding: 5px;
+    border-radius: 3px;
+    background-color: rgba(255, 255, 255, 0.6);
+}
+
+.bann-heading {
+    font-weight: 400;
+    font-size: 26px;
+    margin-bottom: 20px;
+}
+
+p {
+    line-height: 1.8;
+}
+
+.bg-color-orange {
+    background-color: #F27200 !important;
+}
+
+.yoba-section-bgi-need-clarity .mb-10, .yoba-section-bgi-why-choose .mb-10 {
+    margin-bottom: 8px !important;
+}
+
+.yoba-section-bgi-need-clarity ul, .yoba-section-bgi-why-choose ul {
+    padding-left: 0;
+    list-style: disc;
+}
+
+.yoba-section-bgi-need-clarity ul li::marker, .yoba-section-bgi-why-choose ul li::marker {
+    font-size: 20px;
+}
+
+.yoba-section-bgi-why-choose #register {
+    margin-bottom: 20rem !important;
+}
+
+.pt-40 {
+    padding-top: 10rem !important
+}
+
+.bw {
+    filter: grayscale(100%);
+}
+
+[data-kt-sticky-landing-header=on] .landing-header {
+    height: 100px;
+}
+
+.box-shadow-inset {
+    box-shadow: inset 0px 0px 10px 10px rgba(255, 255, 255, 1) !important;
+}
+
+@media (max-width: 600px) {
+    img.h-80px {
+        height: auto !important;
+    }
+}
+
+/* End Home CSS */
