@@ -11,7 +11,7 @@ Turn a completed diagnostic questionnaire into
 
 - Questionnaire ≈ 320 items. Some are scored 0-5 and map 1-to-1 to the eight modules below; others are informational only.
 - Lower score ⇒ larger gap ⇒ higher priority.
-- RAG thresholds Red < 2 | Amber ≥ 2 < 3.5 | Green ≥ 3.5.
+- RAG thresholds Red < 2 | Amber ≥ 2 < 3.9 | Green ≥ 4. (Critical, Keep in mind)
 
 ## SALE-READY MODULES
 

@@ -2,6 +2,9 @@
 
 use Illuminate\Http\Request;
 
+// Set maximum execution time to 120 seconds (2 minutes)
+set_time_limit(120);
+
 define('LARAVEL_START', microtime(true));
 
 // Determine if the application is in maintenance mode...
