@@ -54,6 +54,22 @@
                 <!-- SurveyJS Form Placeholder -->
                 <div id="surveyjsDiagnostic" class="card-footer overflow-auto"></div>
 
+                <!-- Manual Save Button -->
+                <div class="card-footer border-0 pt-0">
+                    <div class="d-flex justify-content-between align-items-center">
+                        <div class="text-muted fs-7">
+                            <i class="fas fa-info-circle me-1"></i>
+                            Your progress is automatically saved as you fill out the form
+                        </div>
+                        <div class="d-flex gap-2">
+                            <button type="button" id="saveAndExitBtn" class="btn btn-light-primary">
+                                <i class="fas fa-save me-1"></i>
+                                Save & Exit to Dashboard
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
                 <!-- Manually Added Uploaded Files Container -->
                 <div id="uploadedFilesList" class="uploaded-files-container"></div>
 
@@ -302,7 +318,7 @@
                 checkDiagnosticStatus({{ $formEntry->id }}); // Check status
             });
 
-            function saveSurveyProgress(forceComplete = false) {
+            function saveSurveyProgress(forceComplete = false, showNotification = false) {
                 console.log('Saving survey progress...');
 
                 // Create a copy of the survey data
@@ -326,7 +342,7 @@
 
                 console.log('Filtered out file data from survey data');
 
-                fetch("{{ route('diagnostic.saveFormEntry') }}", {
+                return fetch("{{ route('diagnostic.saveFormEntry') }}", {
                     method: "POST",
                     headers: {
                         "Content-Type": "application/json",
@@ -341,8 +357,52 @@
                     })
                 })
                     .then(response => response.json())
-                    .then(data => console.log("Progress saved:", data))
-                    .catch(error => console.error("Error saving progress:", error));
+                    .then(data => {
+                        console.log("Progress saved:", data);
+                        if (showNotification) {
+                            // Show a subtle notification that progress was saved
+                            const notification = document.createElement('div');
+                            notification.className = 'alert alert-success alert-dismissible fade show position-fixed';
+                            notification.style.cssText = 'top: 20px; right: 20px; z-index: 9999; min-width: 300px;';
+                            notification.innerHTML = `
+                                <i class="fas fa-check-circle me-2"></i>
+                                Progress saved successfully!
+                                <button type="button" class="btn-close" data-bs-dismiss="alert"></button>
+                            `;
+                            document.body.appendChild(notification);
+                            
+                            // Auto-remove after 3 seconds
+                            setTimeout(() => {
+                                if (notification.parentNode) {
+                                    notification.parentNode.removeChild(notification);
+                                }
+                            }, 3000);
+                        }
+                        return data;
+                    })
+                    .catch(error => {
+                        console.error("Error saving progress:", error);
+                        if (showNotification) {
+                            // Show error notification
+                            const notification = document.createElement('div');
+                            notification.className = 'alert alert-danger alert-dismissible fade show position-fixed';
+                            notification.style.cssText = 'top: 20px; right: 20px; z-index: 9999; min-width: 300px;';
+                            notification.innerHTML = `
+                                <i class="fas fa-exclamation-circle me-2"></i>
+                                Error saving progress. Please try again.
+                                <button type="button" class="btn-close" data-bs-dismiss="alert"></button>
+                            `;
+                            document.body.appendChild(notification);
+                            
+                            // Auto-remove after 5 seconds
+                            setTimeout(() => {
+                                if (notification.parentNode) {
+                                    notification.parentNode.removeChild(notification);
+                                }
+                            }, 5000);
+                        }
+                        throw error;
+                    });
             }
 
             function checkDiagnosticStatus(diagnosticId) {
@@ -360,6 +420,38 @@
 
             survey.render("surveyjsDiagnostic");
             console.log('Survey rendered to DOM');
+
+            // Add event listener for the manual save button
+            document.getElementById('saveAndExitBtn').addEventListener('click', function() {
+                console.log('Manual save button clicked');
+                
+                // Show loading state
+                const saveBtn = this;
+                const originalText = saveBtn.innerHTML;
+                saveBtn.innerHTML = '<i class="fas fa-spinner fa-spin me-1"></i>Saving...';
+                saveBtn.disabled = true;
+                
+                // Save current progress with notification
+                saveSurveyProgress(false, true)
+                    .then(() => {
+                        // Show success message and redirect
+                        saveBtn.innerHTML = '<i class="fas fa-check me-1"></i>Saved! Redirecting...';
+                        saveBtn.classList.remove('btn-light-primary');
+                        saveBtn.classList.add('btn-success');
+                        
+                        // Redirect to dashboard after showing success
+                        setTimeout(() => {
+                            window.location.href = "{{ route('dashboard') }}";
+                        }, 1000);
+                    })
+                    .catch(() => {
+                        // Reset button on error
+                        saveBtn.innerHTML = originalText;
+                        saveBtn.disabled = false;
+                        saveBtn.classList.remove('btn-success');
+                        saveBtn.classList.add('btn-light-primary');
+                    });
+            });
 
             // Jump to the last active page
             if (activePage) {
