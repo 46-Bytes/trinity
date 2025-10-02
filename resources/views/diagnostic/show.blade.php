@@ -62,8 +62,8 @@
                             Your progress is automatically saved as you fill out the form
                         </div>
                         <div class="d-flex gap-2">
-                            <button type="button" id="saveAndExitBtn" class="btn btn-light-primary">
-                                <i class="fas fa-save me-1"></i>
+                            <button type="button" id="saveAndExitBtn" class="btn" style="background-color: #28a745; color: white; border: none;">
+                                
                                 Save & Exit to Dashboard
                             </button>
                         </div>
